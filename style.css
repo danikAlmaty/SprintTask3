@@ -1,0 +1,56 @@
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    border: solid #d7d6d6;
+    width: 80%;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+#first{
+    padding: 20px;
+    width: 20%;
+}
+#first-input{
+    display: flex;
+    justify-content: space-between;
+}
+#input-value{
+    padding: 5px 5px 5px 15px;
+    width: 120px;
+}
+#input-currency{
+    padding: 5px;
+}
+#second{
+    padding: 20px;
+    width: 20%;
+}
+#third{
+    padding: 20px;
+    width: 20%;
+}
+#fourst{
+    padding: 20px;
+    width: 20%;
+}
+
+
+
+
+.output-value{
+    background-color: #e1dada;
+    padding: 5px 5px 5px 15px;
+}
+
+.label{
+    font-weight: bolder;
+    margin-bottom: 12px;
+}
+.simlpe-label{
+    margin-bottom: 12px;
+}

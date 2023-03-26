@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dake</title>
+  <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="main">
+        <div id="first">
+            <div class="simlpe-label">
+                Введите сумму
+            </div>
+            <div id="first-input">
+                <input type="number" id="input-value" oninput="moneyConverter()" onchange="moneyConverter()" min="0">
+                <select id="input-currency" onchange="moneyConverter()">
+                    <option value="KZT">KZT</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+
+            </div>
+        </div>
+        <div id="second">
+            <div class="label">
+                KZT (tenge)
+            </div>
+            <div class="output-value" id="kztValue">
+                -
+            </div>
+        </div>
+        <div id="third">
+            <div class="label">
+                USD (dollar)
+            </div>
+            <div class="output-value" id="usdValue">
+                -
+            </div>
+        </div>
+        <div id="fourst">
+            <div class="label">
+                EUR (euro)
+            </div>
+            <div class="output-value" id="euroValue">
+                -
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
